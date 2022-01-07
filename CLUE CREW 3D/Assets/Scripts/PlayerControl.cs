@@ -23,6 +23,20 @@ public class PlayerControl : MonoBehaviour
 
         Vector3 forward = gameObject.transform.forward;
 
+        if (forward.z > 0f)
+        {
+            move = new Vector3(horMove, 0f, verMove);
+        }
+        else if (forward.z < 0f)
+        {
+            move = new Vector3(horMove, 0f, verMove * -1);
+        }
+        else if (forward.x > 0f)
+        {
+            move = new Vector3(verMove, 0f, horMove);
+        }
+        
+
         if(forward.z != 0f)
         {
             move = new Vector3(horMove, 0.0f, verMove);
