@@ -2779,7 +2779,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7784756077277880290}
   - component: {fileID: 7784756077277880288}
-  - component: {fileID: 7784756077277880291}
   m_Layer: 0
   m_Name: White_Cam
   m_TagString: Untagged
@@ -2844,14 +2843,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &7784756077277880291
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7784756077277880093}
-  m_Enabled: 1
 --- !u!1 &7784756078197373146
 GameObject:
   m_ObjectHideFlags: 0

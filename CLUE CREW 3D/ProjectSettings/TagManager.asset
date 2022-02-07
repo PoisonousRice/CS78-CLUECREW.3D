@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Scarlett
+  - Peacock
+  - White
+  - Plum
+  - Mustard
+  - Green
   layers:
   - Default
   - TransparentFX
